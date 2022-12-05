@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.signup {
+    display: flex;   
+    max-width: 1440px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.left {
+    width:40%;
+    height:100vh;
+    overflow-y: hidden;
+    
+}
+.left img{
+    width:100%;
+    height:100vh;
+}
+
+.right {
+    width: 60%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+/* acct content */
+.content {
+    margin: auto;
+    width:80%;
+    height: 100vh;
+}
+.content h1{
+    font-weight: 700;
+    padding:40px 0px;
+    color:rgba(81,77,77,1);
+}
+/* sign up with buttons */
+.signupwith{
+    display: flex;
+    gap:20px;
+}
+.signupwith span{
+    font-size: 20px;
+}
+.signupwith a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(153,153,153,1);
+    border: 1px solid rgba(153,153,153,1);
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 14px;
+}
+/* or and the horizontal line */
+.or{
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    color:rgba(0,0,0,0.6);
+}
+
+h3:before{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    z-index: -2;
+}
+
+h3:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    z-index: -2;
+}
+
+.or span{
+    background-color: white;
+    padding: 0px 10px;
+    color:rgba(0,0,0,0.6);
+}
+
+/* form field */
+.form label {
+    font-weight: 700;
+    font-size:18px;
+    color: rgba(0,0,0,0.6);
+}
+
+input {
+    margin-bottom:26px;
+    margin-top: 10px;
+    width:100%;
+    padding:26px 10px;
+    font-weight: 400;
+    font-size: 18px;
+    border:2px solid rgba(0,0,0,0.4);
+    border-radius:10px;
+}
+input::placeholder{
+    font-weight:600;
+    font-size:16px;
+}
+
+/*create button*/
+
+.create{    
+    color: white;
+    border-style: none;
+    background-color: #782c00;
+    font-weight: 700;  
+    font-size: 18px;
+}
+
+/*login link*/
+
+#alt {
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    color:rgba(0,0,0,0.7);
+}
+
+#alt a {
+    text-decoration: none;
+    font-weight: 400;
+    color:rgba(0,0,0,0.6);
+    padding: 5px;
+}
+
+#alt a:hover{
+    color: brown;
+    cursor: pointer;
+}
+/* eye icon */
+.password{
+    position: relative;
+}
+
+.password img{
+    width: 20px;
+    position: absolute;
+    right:5%;
+    top: 50%;   
+}
+
+.password1{
+    position: relative;
+}
+
+.password1 img{
+    width: 20px;
+    position: absolute;
+    right:5%;
+    top: 50%;   
+}
